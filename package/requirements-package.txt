@@ -9,3 +9,4 @@ pyobjc-core==9.2; platform_system == "Darwin"
 pyobjc-framework-Cocoa==9.2; platform_system == "Darwin"
 
 pywin32==306; platform_system == "Windows"
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
